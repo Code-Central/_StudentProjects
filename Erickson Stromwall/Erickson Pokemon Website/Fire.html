@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+  <title></title>
+  <link rel="Stylesheet" type="text/css" href="StylesheetFire.css">
+  <link rel="index" type="text/html" href="index.html">
+  <link rel="Water" type="text/html" href="Water.html">
+  <link rel="Grass" type="text/html" href="Grass.html">
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+
+
+  <div id="Header" class="Header">
+
+    <h1 id="HT" class="Header">Fire Pokemon</h1>
+    <h2 class="Header"><a href="index.html" id="navlink" class="Main">Home</a>
+      <a href="Grass.html" id="navlink" class="Grass">Grass-Types</a>
+      <a href="Water.html" id="navlink" class="Water">Water-Types</a>
+      </h3>
+      <div class="genButtons">
+        <button class="buttongen" onclick="genOneToggle()">1st generation</button>
+        <button class="buttongen" onclick="genTwoToggle()">2nd generation</button>
+      </div>
+  </div>
+  <div id='genOne' class="genOne">
+    <div class="column">
+      <div class="row">
+        <div id="charmandercard" class="card">
+          <h1 id="charmandername">Charmander</h1>
+          <img class="cardElementImg" src="./Images/Fire/Icon.png">
+          <img alt="charmander" class="cardImg" id="charmanderPicture" src="./Images/Fire/GenOne/Charmander.png"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('charmanderPicture').src='./Images/Fire/GenOne/Charmander.png', document.getElementById('charmandername').innerText='Charmander', document.getElementById('charmanderdesc').innerText='Charmander is a Starter pokemon in the game red and blue.'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('charmanderPicture').src='./Images/Fire/GenOne/Charmeleon.png', document.getElementById('charmandername').innerText='Charmeleon', document.getElementById('charmanderdesc').innerText='Charmeleon is the 2nd evolution of Charmander.'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('charmanderPicture').src='./Images/Fire/GenOne/Charizard.png', document.getElementById('charmandername').innerText='Charizard', document.getElementById('charmanderdesc').innerText='Charizard is the 3rd evolution of Charmander.'">3rd
+            Evolution</button>
+          <h2 id="charmanderdesc">Charmander is a Starter pokemon in the game red and blue.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+        <div id="vulpixCard" class="card">
+          <h1 id="vulpixName">Vulpix</h1>
+          <img class="cardElementImg" src="./Images/Fire/Icon.png">
+          <img class="cardImg" alt="Vulpix" class="cardImg" id="vulpixPicture" src="./Images/Fire/GenTwo/Vulpix.webp"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('vulpixPicture').src='./Images/Fire/GenTwo/Vulpix.webp', document.getElementById('vulpixName').innerText='Vulpix', document.getElementById('vulpixDesc').innerText='Charmander is a Starter pokemon in the game red and blue.'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('vulpixPicture').src='./Images/Fire/GenTwo/Ninetails.webp', document.getElementById('vulpixName').innerText='Ninetails', document.getElementById('vulpixDesc').innerText='Charmeleon is the 2nd evolution of Charmander.'">2nd
+            Evolution</button>
+          <h2 id="vulpixDesc">Vulpix Vulpix Vulpix</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='genTwo' class="genTwo">
+    <div class="column">
+      <div class="row">
+        <div id="Cyndaquilcard" class="card">
+          <h1 id="Cyndaquilname">Cyndaquil</h1>
+          <img class="cardElementImg" src="./Images/Fire/Icon.png">
+          <img alt="Cyndaquil" class="cardImg" id="CyndaquilPicture" src="./Images/Fire/GenTwo/Cyndaquil.png"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('CyndaquilPicture').src='./Images/Fire/GenTwo/Cyndaquil.png', document.getElementById('Cyndaquilname').innerText='Cyndaquil', document.getElementById('cyndaquildesc').innerText='Cyndaquil is a pokemon'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('CyndaquilPicture').src='./Images/Fire/GenTwo/Quilava.png', document.getElementById('Cyndaquilname').innerText='Quilava', document.getElementById('cyndaquildesc').innerText='death'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('CyndaquilPicture').src='./Images/Fire/GenTwo/Typhlosion.webp', document.getElementById('Cyndaquilname').innerText='Typhlosion', document.getElementById('cyndaquildesc').innerText='die'">3rd
+            Evolution</button>
+          <h2 id="cyndaquildesc">Cyndaquil is a pokemon</h2>
+        </div>
+      </div>
+    </div>
+      <div class="column">
+        <div class="row">
+          <div id="Slugmacard" class="card">
+            <h1 id="Slugmaname">Slugma</h1>
+            <img class="cardElementImg" src="./Images/Fire/Icon.png">
+            <img alt="Slugma" class="cardImg" id="SlugmaPicture" src="./Images/Fire/GenTwo/Slugma.png" height="170"
+              width="130">
+            <button class="pokemon" type="button"
+              onclick="document.getElementById('SlugmaPicture').src='./Images/Fire/GenTwo/Slugma.png', document.getElementById('Slugmaname').innerText='Slugma', document.getElementById('Slugmadesc').innerText='Slugma is a pokemon'">1st
+              Evolution</button>
+            <button class="pokemon" type="button"
+              onclick="document.getElementById('SlugmaPicture').src='./Images/Fire/GenTwo/Magcargo.webp', document.getElementById('Slugmaname').innerText='Magcargo', document.getElementById('Slugmadesc').innerText='Magcargo'">2nd
+              Evolution</button>
+            <h2 id="Slugmadesc">Slugma is a pokemon</h2>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>

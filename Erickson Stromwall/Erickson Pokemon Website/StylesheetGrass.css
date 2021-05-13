@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+div.Header{
+    background-color: rgb(121, 185, 121);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: rgb(80, 155, 80);
+}
+h1.Header {
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+h2.Header {
+    margin: 0px;
+    padding: 5px;
+    border-top: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color:rgb(80, 155, 80);
+}
+#navlink {
+    padding: 5px;
+    text-decoration: none;
+}
+a.Main {
+    color: rgb(255, 255, 255);
+}
+a.Main:hover {
+    color: rgb(224, 224, 224)
+}
+a.Fire {      
+    /*Controls the fire link.*/
+    border-left: solid;
+    border-radius: 2px; 
+    color: rgb(214, 154, 119); 
+}
+a.Fire:hover {
+    /*Controls when you hover over the fire link.*/
+    color: rgb(182, 118, 81);
+}
+a.Water {
+    /*Controls the water link.*/
+    border-left: solid;
+    border-radius: 2px;   
+    color: rgb(173, 216, 230); 
+}
+a.Water:hover {
+    /*Controls when you hover over the Water link.*/
+    color:  rgb(128, 179, 196);
+}
+.genTwo {
+    display: none;
+}
+.card h1 {
+   font-size: 100%;
+   overflow-wrap: break-word;
+   display: inline;
+}
+img.cardImg {
+   background-color: rgb(218, 213, 213);
+   width: 130px;
+   height: 130px;
+}
+.card h2 {
+   font-size: 100%;
+   overflow-wrap: break-word;
+}
+div.genButtons {
+   border-top: solid;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 0px;
+   border-color:  rgb(80, 155, 80);
+   padding-left: 8px;
+}
+button.buttongen {
+   color: white;
+   background-color: rgb(111, 170, 111);
+   border-left: none;
+   border-top: none;
+   border-color: rgb(132, 223, 132);       
+}
+button.buttongen, input:focus{
+   outline: none;
+}
+button.pokemon {
+   color: white;
+   background-color: rgb(175, 138, 116);
+   border-left: none;
+   border-top: none;
+   border-color: rgb(207, 163, 163);
+}
+button.pokemon, input:focus{
+   outline: none;
+}
+img.cardElementImg {
+    width: 13px;
+    height: 13px;
+    float: right;
+    padding-right: 2px;
+    padding-top: 1px;
+}
+* {
+   box-sizing: border-box;
+}
+   
+.column {
+    /*Controls card vertical.*/
+    float: left;
+    width: 10%;
+   padding: 1%;
+ }
+
+.row {
+    /*Controls card horizontal.*/
+    margin: 0 -5px;
+    } 
+/* Clear floats after the columns */
+.row:after {
+    /*Controls card horizontal.*/
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   padding: 0px;
+   text-align: center;
+   background-color: #70c570;
+   color: snow;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+       width: 100%;
+       display: block;
+       margin-bottom: 20px;
+    }
+}
+     
+   
+   
+   

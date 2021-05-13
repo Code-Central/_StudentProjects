@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  <title></title>
+  <link rel="Stylesheet" type="text/css" href="StylesheetGrass.css">
+  <link rel="index" type="text/html" href="index.html">
+  <link rel="Fire" type="text/html" href="Fire.html">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="Header" id="Header">
+    <h1 class="Header">Grass Pokemon</h1>
+    <h2 class="Header"><a href="index.html" id="navlink" class="Main">Home</a>
+      <a href="Fire.html" id="navlink" class="Fire">Fire-Types</a>
+      <a href="Water.html" id="navlink" class="Water">Water-Types</a></h3>
+      <div class="genButtons">
+        <button class="buttongen" onclick="genOneToggle()">1st generation</button>
+        <button class="buttongen" onclick="genTwoToggle()">2nd generation</button>
+      </div>
+  </div>
+
+  <div id='genOne' class="genOne">
+    <div class="column">
+      <div class="row">
+        <div id="bulbasuarcard" class="card">
+          <h1 id="bulbasuarname">Bulbasuar</h1>
+          <img class="cardElementImg" src="./Images/Grass/Icon.png">
+          <img alt="bulbasuar" class="cardImg" id="bulbasuarPicture" src="./Images/Grass/GenOne/Bulbasuar.png"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('bulbasuarPicture').src='./Images/Grass/GenOne/Bulbasuar.png', document.getElementById('bulbasuarname').innerText='Bulbasuar', document.getElementById('bulbasuardesc').innerText='Bulbasuar is a Starter pokemon in the game red and blue.'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('bulbasuarPicture').src='./Images/Grass/GenOne/Ivysaur.png', document.getElementById('bulbasuarname').innerText='Ivysaur', document.getElementById('bulbasuardesc').innerText='Ivysaur'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('bulbasuarPicture').src='./Images/Grass/GenOne/Venusaur.webp', document.getElementById('bulbasuarname').innerText='Venusaur', document.getElementById('bulbasuardesc').innerText='Venusaur'">3rd
+            Evolution</button>
+          <h2 id="bulbasuardesc">Bulbasuar is a Starter pokemon in the game red and blue.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+        <div id="TangelaCard" class="card">
+          <h1 id="TangelaName">Tangela</h1>
+          <img class="cardElementImg" src="./Images/Grass/Icon.png">
+          <img alt="Tangela" class="cardImg" id="TangelaPicture" src="./Images/Grass/GenOne/Tangela.webp" height="170"
+            width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('TangelaPicture').src='./Images/Grass/GenOne/Tangela.webp', document.getElementById('TangelaName').innerText='Tangela', document.getElementById('TangelaDesc').innerText='Tangela'">1st
+            Evolution</button>
+          <h2 id="TangelaDesc">Tangela</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='genTwo' class="genTwo">
+    <div class="column">
+      <div class="row">
+        <div id="Chikoritacard" class="card">
+          <h1 id="Chikoritaname">Chikorita</h1>
+          <img class="cardElementImg" src="./Images/Grass/Icon.png">
+          <img alt="Chikorita" class="cardImg" id="ChikoritaPicture" src="./Images/Grass/GenTwo/Chikorita.webp"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('ChikoritaPicture').src='./Images/Grass/GenTwo/Chikorita.webp', document.getElementById('Chikoritaname').innerText='Chikorita', document.getElementById('Chikoritadesc').innerText='Chikorita is a pokemon'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('ChikoritaPicture').src='./Images/Grass/GenTwo/Bayleef.png', document.getElementById('Chikoritaname').innerText='Bayleef', document.getElementById('Chikoritadesc').innerText='Bayleef'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('ChikoritaPicture').src='./Images/Grass/GenTwo/Meganium.png', document.getElementById('Chikoritaname').innerText='Meganium', document.getElementById('Chikoritadesc').innerText='Meganium'">3rd
+            Evolution</button>
+          <h2 id="Chikoritadesc">Chikorita is a pokemon</h2>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+        <div id="Bellossomcard" class="card">
+          <h1 id="Bellossomname">Bellossom</h1>
+          <img class="cardElementImg" src="./Images/Grass/Icon.png">
+          <img alt="Bellossom" class="cardImg" id="BellossomPicture" src="./Images/Grass/GenTwo/Bellossom.png"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('BellossomPicture').src='./Images/Grass/GenTwo/Bellossom.png', document.getElementById('Bellossomname').innerText='Bellossom', document.getElementById('Bellossomdesc').innerText='Bellossom is a pokemon'">1st
+            Evolution</button>
+          <h2 id="Bellossomdesc">Bellossom is a pokemon</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#Header {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: rgb(218, 130, 31);
+    background-color: rgb(233, 156, 68);
+}
+h1.Header {
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+h2.Header {
+    margin: 0px;
+    padding: 5px;
+    border-top: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color:  rgb(218, 130, 31);
+}
+#navlink {
+    text-decoration: none;
+    padding: 5px;
+}
+a.Main {
+    color: rgb(255, 255, 255);
+}
+a.Main:hover {
+    color: rgb(224, 224, 224)
+}
+a.Water {  
+    color: rgb(173, 216, 230); 
+    border-left: solid;
+}
+a.Water:hover {
+    color:  rgb(128, 179, 196);
+}
+a.Grass {
+    color: rgb(144, 238, 144);  
+    border-left: solid; 
+}
+a.Grass:hover {
+    color: rgb(104, 206, 104);
+}
+.genTwo {
+ display: none;
+}
+.card h1 {
+    font-size: 100%;
+    overflow-wrap: break-word;
+    display: inline;
+}
+img.cardImg {
+    background-color: rgb(218, 213, 213);
+    width: 130px;
+    height: 130px;
+ }
+.card h2 {
+    font-size: 100%;
+    overflow-wrap: break-word;
+}
+div.genButtons {
+    border-top: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color:  rgb(218, 130, 31);
+    padding-left: 8px;
+}
+button.buttongen {
+    color: white;
+    background-color: rgb(214, 132, 45);
+    border-left: none;
+    border-top: none;
+    border-color: rgb(255, 153, 0);
+    
+}
+button.buttongen, input:focus{
+    outline: none;
+}
+button.pokemon {
+    color: white;
+    background-color: rgb(175, 138, 116);
+    border-left: none;
+    border-top: none;
+    border-color: rgb(207, 163, 163);
+}
+button.pokemon, input:focus{
+    outline: none;
+}
+img.cardElementImg {
+    width: 13px;
+    height: 13px;
+    float: right;
+    padding-right: 2px;
+    padding-top: 1px;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 10%;
+    padding: 1%;
+  }
+
+  .row {
+      margin: 0 -5px;
+    }
+  
+v  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(233, 129, 103);
+    color: snow;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+  
+
+
