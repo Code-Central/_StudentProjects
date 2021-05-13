@@ -1,0 +1,13 @@
+body {
+    background-color: darkred;
+}
+button {
+    background-color: darkred;
+    color: darkred;
+    border: darkred;
+}
+button:hover {
+   background-color: darkgreen;
+   color: darkgreen;
+   border: darkgreen;
+}
