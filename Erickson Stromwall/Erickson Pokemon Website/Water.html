@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+  <title></title>
+  <link rel="Stylesheet" type="text/css" href="StylesheetWater.css">
+  <link rel="index" type="text/html" href="index.html">
+  <link rel="Fire" type="text/html" href="Fire.html">
+  <link rel="Grass" type="text/html" href="Grass.html">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="Header" id="Header">
+
+    <h1 class="Header">Water Pokemon</h1>
+    <h2 class="Header">
+      <a href="index.html" id="navlink" class="Main">Home</a>
+      <a href="Grass.html" id="navlink" class="Grass">Grass-Types</a>
+      <a href="Fire.html" id="navlink" class="Fire">Fire-Types</a>
+    </h2>
+    <div class="genButtons">
+      <button class="buttongen" onclick="genOneToggle()">1st generation</button>
+      <button class="buttongen" onclick="genTwoToggle()">2nd generation</button>
+    </div>
+  </div>
+  <div id='genOne' class="genOne">
+    <div class="column">
+      <div class="row">
+        <div id="Squirtlecard" class="card">
+          <h1 id="Squirtlename">Squirtle</h1>
+          <img class="cardElementImg" src="./Images/Water/icon.png">
+          <img alt="Squirtle" class="cardImg" id="SquirtlePicture" src="./Images/Water/GenOne/Squirtle.png" height="170"
+            width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('SquirtlePicture').src='./Images/Water/GenOne/Squirtle.png', document.getElementById('Squirtlename').innerText='Squirtle', document.getElementById('Squirtledesc').innerText='Squirtle is a Starter pokemon in the game red and blue.'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('SquirtlePicture').src='./Images/Water/GenOne/Wartortle.webp', document.getElementById('Squirtlename').innerText='Wartortle', document.getElementById('Squirtledesc').innerText='Wartortle'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('SquirtlePicture').src='./Images/Water/GenOne/Blastoise.png', document.getElementById('Squirtlename').innerText='Blastoise', document.getElementById('Squirtledesc').innerText='Blastoise'">3rd
+            Evolution</button>
+          <h2 id="Squirtledesc">Squirtle is a Starter pokemon in the game red and blue.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+        <div id="PoliwagCard" class="card">
+          <h1 id="PoliwagName">Poliwag</h1>
+          <img class="cardElementImg" src="./Images/Water/Icon.png">
+          <img class="cardImg" alt="Poliwag" class="cardImg" id="PoliwagPicture" src="./Images/Water/GenOne/Poliwag.webp"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('PoliwagPicture').src='./Images/Water/GenOne/Poliwag.webp', document.getElementById('PoliwagName').innerText='Poliwag', document.getElementById('PoliwagDesc').innerText='Poliwag'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('PoliwagPicture').src='./Images/Water/GenOne/Poliwhirl.png', document.getElementById('PoliwagName').innerText='Poliwhirl', document.getElementById('PoliwagDesc').innerText='Poliwhirl'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('PoliwagPicture').src='./Images/Water/GenOne/Poliwrath.png', document.getElementById('PoliwagName').innerText='Poliwrath', document.getElementById('PoliwagDesc').innerText='Poliwrath'">3rd
+            Evolution</button>
+          <h2 id="PoliwagDesc">Poliwag</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id='genTwo' class="genTwo">
+    <div class="column">
+      <div class="row">
+        <div id="Totodilecard" class="card">
+          <h1 id="Totodilename">Totodile</h1>
+          <img class="cardElementImg" src="./Images/Water/Icon.png">
+          <img alt="Totodile" class="cardImg" id="TotodilePicture" src="./Images/Water/GenTwo/Totodile.webp"
+            height="170" width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('TotodilePicture').src='./Images/Water/GenTwo/Totodile.webp', document.getElementById('Totodilename').innerText='Totodile', document.getElementById('Totodiledesc').innerText='Totodile is a pokemon'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('TotodilePicture').src='./Images/Water/GenTwo/Croconaw.png', document.getElementById('Totodilename').innerText='Croconaw', document.getElementById('Totodiledesc').innerText='Croconaw'">2nd
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('TotodilePicture').src='./Images/Water/GenTwo/Feraligatr.webp', document.getElementById('Totodilename').innerText='Feraligatr', document.getElementById('Totodiledesc').innerText='Feraligatr'">3rd
+            Evolution</button>
+          <h2 id="Totodiledesc">Totodile is a pokemon</h2>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+        <div id="Remoraidcard" class="card">
+          <h1 id="Remoraidname">Remoraid</h1>
+          <img class="cardElementImg" src="./Images/Water/Icon.png">
+          <img alt="Remoraid" class="cardImg" id="RemoraidPicture" src="./Images/Water/GenTwo/Remoraid.png" height="170"
+            width="130">
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('RemoraidPicture').src='./Images/Water/GenTwo/Remoraid.png', document.getElementById('Remoraidname').innerText='Remoraid', document.getElementById('Remoraiddesc').innerText='Remoraid is a pokemon'">1st
+            Evolution</button>
+          <button class="pokemon" type="button"
+            onclick="document.getElementById('RemoraidPicture').src='./Images/Water/GenTwo/Octillery.png', document.getElementById('Remoraidname').innerText='Octillery', document.getElementById('Remoraiddesc').innerText='Octillery'">2nd
+            Evolution</button>
+          <h2 id="Remoraiddesc">Remoraid is a pokemon</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
