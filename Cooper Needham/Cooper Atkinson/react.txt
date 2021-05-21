@@ -1,0 +1,107 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+int LEDR = 8;
+int LEDB = 7;
+int LEDGr = 6;
+int Button = 9;
+int COLOR;
+int Beep;
+int PSE;
+int TME;
+int RTME = 0;
+
+void setup() {
+  lcd.begin(16, 2);
+  pinMode(LEDR, OUTPUT);
+  pinMode(LEDB, OUTPUT);
+  pinMode(LEDGr, OUTPUT);
+  pinMode(Button, INPUT);
+  digitalWrite(LEDR, LOW);
+  digitalWrite(LEDB, LOW);
+  digitalWrite(LEDGr, LOW);
+}
+
+void loop() {
+  lcd.clear();
+  lcd.print("Hold Button to");
+  lcd.setCursor(0, 1);
+  lcd.print("Start");
+  while (digitalRead(Button) == LOW); {
+
+    tone(13, 1200, 30);
+    delay(1400);
+    noTone(13);
+  }
+
+  lcd.clear();
+  digitalWrite(LEDR, HIGH);
+  digitalWrite(LEDB, HIGH);
+  digitalWrite(LEDGr, HIGH);
+  randomSeed(analogRead(0));
+  COLOR = random(1, 4);
+  PSE = random(500, 1200);
+
+
+  while (COLOR != 1 && digitalRead(Button) == HIGH){
+  digitalWrite(LEDGr, HIGH);
+  digitalWrite(LEDB, HIGH);
+  delay(PSE);
+  randomSeed(analogRead(0));
+  Beep = random(1, 4);
+
+  PSE = random(750, 1200);
+
+  if(Beep == 1) {
+    tone(13, 1600, 350);
+    delay(750);
+    noTone(13);
+  }
+  if (COLOR == 2) {
+     digitalWrite(LEDGr, LOW);
+  }
+  if (COLOR == 3) {
+    digitalWrite(LEDB, LOW);
+  }
+  delay(PSE);
+  randomSeed(analogRead(0));
+  COLOR = random(1, 4);
+ }
+
+ if (COLOR == 1 && digitalRead(Button) == HIGH) {
+  digitalWrite(LEDGr, HIGH);
+  digitalWrite(LEDB, HIGH);
+  delay(PSE);
+  TME = millis();
+  digitalWrite(LEDR, LOW);
+ }
+  while (digitalRead(Button == HIGH)) {
+  delay(10);
+  }
+  lcd.display();
+  RTME = millis() - TME;
+  lcd.print("Reaction Time:");
+  lcd.setCursor(0, 1);
+  lcd.print(RTME);
+ 
+ if(COLOR != 1) {
+  lcd.print("Released too");
+  lcd.setCursor(0, 1);
+  lcd.print("soon!!!");
+  tone(13, 3000, 1500);
+  delay(500);
+  noTone(13);
+  }
+
+  while (digitalRead(Button) == LOW) {
+    delay(10);
+}
+digitalWrite(LEDR, LOW);
+digitalWrite(LEDB, LOW);
+digitalWrite(LEDGr, LOW);
+lcd.clear();
+lcd.print("Hold Button to");
+lcd.setCursor(0, 1);
+lcd.print("start.");
+int Time = 0;
+delay(1000);
+}
