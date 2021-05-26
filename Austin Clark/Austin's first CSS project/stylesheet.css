@@ -1,3 +1,30 @@
 body {
     background-color: rgb(161, 104, 12);
 }
+
+body {
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(9, 119, 37);
+    border: seagreen;
+    border-style: dashed;
+}
+
+p {
+    text-align: right;
+    color: rgb(241, 210, 151);
+}
+
+h6 {
+    text-align: right;
+    color: springgreen;
+}
+
+h5 {
+    color: sienna;
+    border: wheat;
+    border-style: solid;
+}
