@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: yellowgreen;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;     
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: teal;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: white;    
+    text-align: center; 
+}
+
+body {
+    background-color: blue;
+}
+
+p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;     
+}
