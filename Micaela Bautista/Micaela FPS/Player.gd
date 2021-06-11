@@ -24,16 +24,16 @@ var mouseDelta : Vector2 = Vector2 ()
 onready var camera : Camera = get_node("Camera")
 onready var muzzle : Spatial = get_node("Camera/Muzzle")
 onready var bulletScene = load("res://Bullet.tscn")
-onready var ui : Node = get_node("root/MainScene/CanvasLayer/UI")
+onready var ui : Node = get_parent().get_node("CanvasLayer/UI")
 
 func _ready():
 	#hide and lock the mouse cursor
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 #set the UI
-ui.update_health_bar(curHP, maxHP)
-ui.update_ammo_text(ammo)
-ui.update_score_text(score)
+	ui.update_health_bar(curHP, maxHP)
+	ui.update_ammo_text(ammo)
+	ui.update_score_text(score)
 
 func _physics_process(delta):
 	
@@ -75,10 +75,6 @@ func _physics_process(delta):
 	if Input.is_action_pressed("jump") and is_on_floor():
 		vel.y = jumpForce
 		
-func _input(event):
-	if event is InputEventMouseMotion:
-		mouseDelta = event.relative
-		
 func _process(delta): 
 
 	#rotate the camera along the x axis
@@ -97,7 +93,11 @@ func _process(delta):
  if Input.is_action_just_pressed("shoot") and ammo > 0:
 	 shoot()
 	
+func _input(event):
 	
+	if event is InputEventMouseMotion:
+		mouseDelta = event.relative
+
 func shoot ():
 	var bullet = bulletScene.instance()
 	get_node("/root/MainScene").add_child(bullet)
@@ -108,24 +108,35 @@ func shoot ():
 	
 	ui.update_ammo_text(ammo)
 	
-	
-func die():
-	get_tree().reload_current_scene()
-	
 func take_damage (damage):
-
-	curHP -= damage
 	
+	curHP -= damage
+
 	ui.update_health_bar(curHP, maxHP)
 	
 	if curHP <= 0:
 		die()
+	
+func die():
+	
+	get_tree().reload_current_scene()
 	
 func add_score (amount):
 	
 	score +=amount
 	ui.update_score_text(score)
 	
+func add_health (amount):
+	
+	curHP += amount
+	if curHP > maxHP:
+		curHP = maxHP
+	ui.update_health_bar(curHP, maxHP)
+	
+func add_ammo (amount):
+	
+	ammo += amount
+	ui.update_ammo_text(ammo)
 	
 	
 	

@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(243, 105, 13);
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: darkslategray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+  text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: aliceblue;  
+}
+
+img  {
+    border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: darkslategray;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}

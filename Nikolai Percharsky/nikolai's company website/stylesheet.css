@@ -1,5 +1,9 @@
 P { font-size: 1.2em;}
-body{ font-size: 1.2em;}
+body{ font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    font-family: 'Limelight' , sans-serif;
+}
 .navlinks{ 
     background-color: darkolivegreen;
     color: white;
@@ -13,4 +17,46 @@ li{
 
 li:hover{
     background-color: black
+}
+
+.imagebanner{
+    background-image: url("images/GameBanner.png");
+    padding: 50px 0;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black
+}
+.introduction{
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.ourgames {
+    text-align: center;
+    margin: 32px;
+}
+@media screen and (min-width: 700px){
+    ul{
+        text-align: right;
+    }
+
+    li{
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .game{
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
 }

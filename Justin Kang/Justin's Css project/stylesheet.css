@@ -1,0 +1,28 @@
+body {
+    background-color: yellowgreen;
+}
+h1 {
+    text-align: center;
+    color: white
+
+}
+p {
+    border: 5px dotted blue;
+    color:blueviolet
+}
+h1 {
+    border: 7px dashed red;
+}
+h2 {
+    text-align: center; 
+    color: indigo
+}
+h5 {
+    color: purple 
+}
+h5 {
+    border: 2px solid indigo
+}
+h2 {
+    border: 5px solid blue
+}

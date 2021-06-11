@@ -12,7 +12,7 @@ var attackDist : float = 10
 var scoreToGive : int = 10
 
 #componets
-onready var player: Node = get_node("root/MainScene/Player")
+onready var player: Node = get_parent().get_node("Player")
 onready var timer : Node = get_node("Timer")
 
 func _ready():
@@ -21,15 +21,6 @@ func _ready():
 	timer.set_wait_time(attackRate)
 	timer.start()
 	
-func attack():
-	
-	player.take_damage(damage)
-	
-func _on_Timer_timeout():
-	
-	if translation.distance_to(player.translation) <= attackDist:
-		attack()
-		
 func _physics_process(delta):
 	
 	#calculate the direction to the player
@@ -40,8 +31,26 @@ func _physics_process(delta):
 	if translation.distance_to(player.translation) > attackDist:
 		move_and_slide(dir * moveSpeed, Vector3.UP)
 	
-func die ():
-	#TODO: add to player score
-	queue_free()
-	get_tree().reload_current_scene()
+func take_damage (damage):
 	
+	health -= damage
+	
+	if health <= 0:
+		die()
+		
+func die ():
+	
+	player.add_score(scoreToGive)
+	queue_free()
+
+func attack():
+	
+	player.take_damage(damage)
+	
+func _on_Timer_timeout():
+	
+	if translation.distance_to(player.translation) <= attackDist:
+		attack()
+		
+	
+

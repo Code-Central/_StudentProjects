@@ -1,0 +1,88 @@
+#!/bin/python3
+import turtle
+from turtle import * 
+import random
+from random import randint
+import time
+
+colors = ["yellow","gold","orange","red","maroon","violet","magenta","purple","navy","blue","skyblue","cyan","turquoise","lightgreen","green","darkgreen","chocolate","brown","black","gray","pink"]
+raceTurtles = []
+turtles = [turtle.Turtle() for x in range(6)]
+raceNumber=1
+
+def createTrack():
+  penup()
+  goto(-140,140)
+  speed(20)
+  
+  for step in range(16):
+    write(step,align="center")
+    right(90)
+    forward(10)
+    pendown()
+    forward(180)
+    penup()
+    backward(190)
+    left(90)
+    forward(20)
+ 
+def createTurtles():
+  restartRace()
+  print("\n=------= [ Turtles ] =------=")  
+  random.shuffle(colors)
+  
+  for x in range(len(turtles)):
+    turtles[x].color(colors[x])
+    turtles[x].shape('turtle')
+    print("Turtle #" + str(x+1) +": " + colors[x])
+    raceTurtles.append(colors[x])
+  print("=------= [ Race #" + str(raceNumber) + " ] =------=\n")  
+  
+def startRace():
+  for turn in range(100):
+    for x in range(len(turtles)):
+      turtles[x].forward(randint(1,5))
+    firstPlace = turtles[0]
+    winnerColor = colors[0]
+  for x in range(len(turtles)):
+    if firstPlace.xcor() < turtles[x].xcor():
+      firstPlace = turtles[x]
+      winnerColor = colors[x]
+  print("The " + winnerColor + " turtle won the race!")
+  firstPlace.right(360)
+  return winnerColor
+    
+def restartRace():
+  for x in range(len(turtles)):
+    if (len(raceTurtles) > 1):
+      raceTurtles.pop(0)
+    turtles[x].clear()
+    turtles[x].penup()
+    turtles[x].goto(-160,120 - (30 * x))
+    turtles[x].pendown()
+
+
+createTrack()
+createTurtles()
+playerCoins=100
+while playerCoins > 0:
+  guess=""
+  while guess not in raceTurtles:
+    guess=input("What color turtle do you think will win? ")
+  print("You have " + str(playerCoins) + " coins.")
+  playerBet=-1
+  while playerBet <= 0 or playerBet > playerCoins:
+    playerBet= int(input("How many coins would you like to bet on your turtle? "))
+  winningTurtle=startRace()
+  if guess == winningTurtle:
+    print("Your turtle won!")
+    print("You won " + str(playerBet) + " coin(s)!")
+    playerCoins += playerBet
+  else:
+    print("Your turtle lost...")
+    print("You lost " + str(playerBet) + " coin(s).")
+    playerCoins -= playerBet
+  time.sleep(3)
+  raceNumber += 1
+  createTurtles()
+print("You have no coins!")

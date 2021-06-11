@@ -44,11 +44,11 @@ custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0, 0.518555, 0.448671, 1 )
 text = "score: 0"
 
-[node name="lose" type="Label" parent="score"]
-margin_left = 488.397
-margin_top = 435.26
-margin_right = 1214.4
-margin_bottom = 472.26
+[node name="lose" type="Label" parent="."]
+margin_left = 245.54
+margin_top = 340.872
+margin_right = 971.543
+margin_bottom = 377.872
 rect_scale = Vector2( 1.0768, 3.41782 )
 custom_fonts/font = SubResource( 2 )
 text = "loser you suck get good"

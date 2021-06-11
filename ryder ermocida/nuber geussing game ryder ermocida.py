@@ -14,4 +14,5 @@ while guess != rand:
         print("you gurssed too high!")
 
     if guess < rand:
-        print("you guessed to low"))")")
+        print("you guessed to low")
+        
