@@ -1,0 +1,22 @@
+body {
+    background-color: turquoise; 
+}
+h1 {
+color: palegreen;
+text-align: center;
+}
+p{
+    border-style: solid;
+    border-width: 1px; 
+    border-color: mediumvioletred;
+}
+p2{
+    border-color: yellowgreen;
+    color: whitesmoke;
+    text-align: center;
+    border-style: solid;
+}
+
+p3{
+color:palevioletred
+}

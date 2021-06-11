@@ -1,0 +1,4 @@
+animal = input ("give me an animal")
+name = input ("give me an name")
+food = input ("give me some food")
+place1/2 = ("give me 2 places ")

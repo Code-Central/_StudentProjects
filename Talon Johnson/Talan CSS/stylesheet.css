@@ -1,0 +1,27 @@
+body {
+    background-color:blue;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    border-style: dashed;
+    border-color: black; 
+}
+
+p{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: lightskyblue;
+    text-align: center;
+}
+
+h2{
+    color: white
+}
+
+h3{
+    color: yellow;
+    
+}

@@ -14,7 +14,7 @@ func _ready():
 	direction = direction.normalized()
 	width = get_viewport_rect().size.x
 	height = get_viewport_rect().size.y
-
+ get_parent().get_node("lose").hide()
 func _process(delta):
 	position += direction * speed * delta
 	if position.x < 0 or position.x > width:
@@ -26,5 +26,7 @@ func _on_bomb_input_event(viewport, event, shape_idx):
 	if event is InputEventMouseButton and event.button_index == BUTTON_LEFT and event.pressed:
 		queue_free()
 		get_parent().get_node("UFO").queue_free()
+		get_parent().get_node("lose").show()
 		get_parent().get_node("Explode").play()
+		
 		
