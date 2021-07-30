@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+    margin-right: 20%;
+margin-left: 20%; 
+border-width: 2px;
+border-style: solid;
+border-color: black;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: turquoise;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%; 
+    border-width: 2px;
+    border-style: dashed;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h5{
+    color: yellow;
+}

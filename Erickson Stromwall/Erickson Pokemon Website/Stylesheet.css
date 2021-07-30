@@ -1,10 +1,10 @@
 body {
-    background: url("./Images/background\ pokemon.png") fixed no-repeat center; 
+    background-color: rgb(77,77,77);
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
-div.Header{
+.Header{
     background-color: rgb(136, 136, 136);
     margin-top: 0px;
     margin-right: 0px;
@@ -57,6 +57,10 @@ a.Fire {
 }
 a.Fire:hover {
     color: rgb(182, 118, 81);
+}
+img {
+    width: 500px;
+    text-align: center;
 }
 img {
     width: 500px;

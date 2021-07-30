@@ -30,7 +30,7 @@ void setup() {
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
-  Serial.pinMode(9600);
+  Serial.begin(9600);
 
   for (int i = 0; i < NUMREADINGS; i++)
     readings[i] = 0;
@@ -48,7 +48,7 @@ void loop() {
 
     total -= readings[index];
     readings[index] = val;
-    total += reading[index];
+    total += readings[index];
     index = (index + 1);
     if (index >= NUMREADINGS)
       index = 0;
@@ -71,21 +71,48 @@ void loop() {
     else {
       digitalWrite(LED3, LOW);
     }
-    if (average > 350); {
+    if (average > 350) {
       digitalWrite(LED4, HIGH);
     }
     else {
       digitalWrite(LED4, LOW);
     }
-    if (average > 450); {
+    if (average > 450) {
       digitalWrite(LED5, HIGH);
     }
     else {
       digitalWrite(LED5, LOW);
     }
-    if (average > 550); {
+    if (average > 550) {
       digitalWrite(LED6, HIGH);
     }          
+    else {
+      digitalWrite(LED6, LOW);
     }
+    if (average > 650) {
+      digitalWrite(LED7, HIGH);
+    }
+    else {
+      digitalWrite(LED7, LOW);
+    }
+    if (average > 750) {
+      digitalWrite(LED8, HIGH);
+    }
+    else {
+      digitalWrite(LED8, LOW);
+    }
+    if (average > 850) {
+      digitalWrite(LED9, HIGH);
+    }
+    else {
+      digitalWrite(LED9, LOW);
+    }
+    if (average > 950) {
+      digitalWrite(LED10, HIGH);
+    }
+    else {
+      digitalWrite(LED10, LOW);
+    }
+    Serial.println(val);
   }
 }

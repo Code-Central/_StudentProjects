@@ -1,0 +1,39 @@
+body {
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+}
+
+h1{
+    border: black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: cyan;
+}
+
+p{
+    text-align: center;
+}
+
+p{
+    border: White;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+h6{
+    color: yellow;
+}

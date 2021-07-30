@@ -1,0 +1,176 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Brick.tscn" type="PackedScene" id=1]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Brick" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.9867, 8.43518 )
+
+[node name="Brick43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.9867, 428.065 )
+
+[node name="Brick23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 613.316, 8.43518 )
+
+[node name="Brick46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 613.316, 428.065 )
+
+[node name="Brick12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.9867, 55.7397 )
+
+[node name="Brick39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.9867, 475.369 )
+
+[node name="Brick20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 613.316, 55.7397 )
+
+[node name="Brick30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 613.316, 475.369 )
+
+[node name="Brick2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105.097, 8.44387 )
+
+[node name="Brick37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105.097, 428.074 )
+
+[node name="Brick18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 655.426, 8.44387 )
+
+[node name="Brick25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 655.426, 428.074 )
+
+[node name="Brick9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105.097, 55.7484 )
+
+[node name="Brick32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 105.097, 475.378 )
+
+[node name="Brick13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 655.426, 55.7484 )
+
+[node name="Brick40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 655.426, 475.378 )
+
+[node name="Brick3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 20.9676, 8.4402 )
+
+[node name="Brick38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 20.9676, 428.07 )
+
+[node name="Brick19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 571.297, 8.4402 )
+
+[node name="Brick28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 571.297, 428.07 )
+
+[node name="Brick10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 20.9676, 55.7447 )
+
+[node name="Brick33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 20.9676, 475.374 )
+
+[node name="Brick14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 571.297, 55.7447 )
+
+[node name="Brick29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 571.297, 475.374 )
+
+[node name="Brick4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 229.886, 8.44387 )
+
+[node name="Brick41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 229.886, 428.074 )
+
+[node name="Brick49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 277.255, 208.074 )
+
+[node name="Brick54" parent="." instance=ExtResource( 1 )]
+position = Vector2( 284.623, 337.547 )
+
+[node name="Brick58" parent="." instance=ExtResource( 1 )]
+position = Vector2( 494.097, 337.547 )
+
+[node name="Brick51" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384.763, 263.863 )
+
+[node name="Brick53" parent="." instance=ExtResource( 1 )]
+position = Vector2( 326.728, 354.389 )
+
+[node name="Brick57" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451.991, 354.389 )
+
+[node name="Brick50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 504.623, 208.074 )
+
+[node name="Brick56" parent="." instance=ExtResource( 1 )]
+position = Vector2( 409.886, 354.389 )
+
+[node name="Brick55" parent="." instance=ExtResource( 1 )]
+position = Vector2( 368.834, 354.389 )
+
+[node name="Brick21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 780.216, 8.44387 )
+
+[node name="Brick48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 780.216, 428.074 )
+
+[node name="Brick11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 229.886, 55.7484 )
+
+[node name="Brick35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 229.886, 475.378 )
+
+[node name="Brick16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 780.216, 55.7484 )
+
+[node name="Brick27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 780.216, 475.378 )
+
+[node name="Brick5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 145.757, 8.4402 )
+
+[node name="Brick36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 145.757, 428.07 )
+
+[node name="Brick17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 696.086, 8.4402 )
+
+[node name="Brick31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 696.086, 428.07 )
+
+[node name="Brick8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 145.757, 55.7447 )
+
+[node name="Brick44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 145.757, 475.374 )
+
+[node name="Brick24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 696.086, 55.7447 )
+
+[node name="Brick47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 696.086, 475.374 )
+
+[node name="Brick6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 187.776, 8.43518 )
+
+[node name="Brick34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 187.776, 428.065 )
+
+[node name="Brick15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 738.105, 8.43518 )
+
+[node name="Brick26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 738.105, 428.065 )
+
+[node name="Brick7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 187.776, 55.7397 )
+
+[node name="Brick42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 187.776, 475.369 )
+
+[node name="Brick22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 738.105, 55.7397 )
+
+[node name="Brick45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 738.105, 475.369 )

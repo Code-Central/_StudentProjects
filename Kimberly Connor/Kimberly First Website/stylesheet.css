@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(208, 221, 236);
+
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    border-width: 4px;
+    border-style:solid;
+    border-color: lightsteelblue;
+    display: block;
+    margin-left: 6%;
+    margin-right: 15%
+}
+
+#header{
+    background-color: lightsteelblue;
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 0%
+}
+
+
+#list {
+    border-width: 4px;
+    border-style: solid;
+    border-color: lightsteelblue;
+    padding: 15px;
+    margin-left: 27%;
+}
+ 
+#navlinks {
+    position: fixed;
+}
+
+#footer {
+    background-color: lightsteelblue;
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+}
+} 
+
+}

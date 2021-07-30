@@ -24,7 +24,7 @@ h6 {
 }
 
 h5 {
-    color: sienna;
-    border: wheat;
-    border-style: solid;
+    color: rgba(95, 45, 160, 0.815);
+    border: rgb(255, 0, 0);
+    border-style: dotted;
 }

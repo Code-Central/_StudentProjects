@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet
+}
+
+h1 {
+    text-align: center;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: whitesmoke
+    
+}
+
+h3 {
+    text-align: center;
+    text-decoration: cornflowerblue;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: whitesmoke
+}

@@ -1,0 +1,22 @@
+ def getname():
+    name = input("What's your name? ")
+    return name
+
+def getActivity():
+  activity = ""
+  while activity != "game" and activity != "outside":
+    activity = input("Do you want to game or go outside? ")
+  return activity
+
+answer = "yes"
+while answer == "yes":
+	name = getname()
+	print("Hello " + name + "!")
+	
+	activity = getActivity()
+	if activity == "game":
+		print("Okay, then lets game!")
+	if activity == "outside":
+		print("Then let's play tag!")
+
+	answer = input("Do you want to play again? ")

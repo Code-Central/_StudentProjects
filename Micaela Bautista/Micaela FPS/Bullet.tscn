@@ -4,8 +4,8 @@
 [ext_resource path="res://Models/Weapon/ammo_pistol.obj" type="ArrayMesh" id=2]
 
 [sub_resource type="CapsuleShape" id=1]
-radius = 0.03
-height = 0.06
+radius = 0.06
+height = 0.03
 
 [node name="Bullet" type="Area"]
 script = ExtResource( 1 )
