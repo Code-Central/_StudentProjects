@@ -1,0 +1,21 @@
+body {
+    background-color: blue
+}
+h1 {
+    text-align: center;
+    color: white;
+    border-style: dashed;
+}
+p {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+    text-align: center;
+    color: white;
+}
+h2 {
+    color: white;
+}
+h6 {
+    color: white;
+}

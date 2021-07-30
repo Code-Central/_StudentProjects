@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bounce.wav-2636cf6b2c565dcf841f84983815d1a0.sample"
+
+[deps]
+
+source_file="res://04A 2D Brick Breaker Game Assets/04A 2D Brick Breaker Game Assets/Sounds/bounce.wav"
+dest_files=[ "res://.import/bounce.wav-2636cf6b2c565dcf841f84983815d1a0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -7,7 +7,7 @@ var moveSpeed : float = 2.0
 #attacking
 var damage : int = 1
 var attackRate : float = 1.0
-var attackDist : float = 10 
+var attackDist : float = 2.0
 
 var scoreToGive : int = 10
 
@@ -34,7 +34,7 @@ func _physics_process(delta):
 func take_damage (damage):
 	
 	health -= damage
-	
+	print("ouch")
 	if health <= 0:
 		die()
 		

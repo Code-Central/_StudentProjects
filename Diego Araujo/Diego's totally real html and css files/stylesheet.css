@@ -1,0 +1,16 @@
+body {
+    background-color: limegreen;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    border-style: double;
+    border: 1vmax lightblue thick;
+    border-color: greenyellow;
+    border-width: 1vmax;
+}
+
+p {
+    text-align: center;
+}

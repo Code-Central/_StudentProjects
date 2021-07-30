@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 14mm;
+}
+
+p {
+    border: dotted;
+    border-color: blue;
+    color: red;
+    font-size: 8mm; 
+}
+
+h2 {
+    border: double;
+    color: pink;
+    font-size: 7mm;
+    border-color: lightblue;
+}
+
+h3 {
+    color: green;
+    border: dashed;
+    border-color: orangered;
+    font-size: 6mm;
+}
+
+h4 {
+    color: yellow;
+    font-size: 5mm;
+    border: outset;
+    border-color: darkgrey;
+}
+
+h5 {
+    color: darkmagenta;
+    border: groove;
+    border-color: darkturquoise;
+    font-size: 4mm;
+}

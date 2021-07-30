@@ -1,5 +1,6 @@
 extends Area
 
+
 enum PickupType {
 	Health, 
 	Ammo
@@ -16,7 +17,6 @@ var bobSpeed : float = 1.0
 var bobbingUp : bool = true
 
 func _on_Pickup_body_entered(body):
-	
 	if body.name == "Player":
 		pickup(body)
 		queue_free()
@@ -29,7 +29,7 @@ func pickup (player):
 		player.add_ammo(amount)
 		
 func _process(delta):
-	
+	print(bobbingUp)
 	#move us up or down
 	translation.y += (bobSpeed if bobbingUp == true else -bobSpeed) * delta
 	

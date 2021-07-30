@@ -1,0 +1,172 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://bric.tscn" type="PackedScene" id=1]
+
+[node name="Level2" type="Node2D"]
+
+[node name="brics" type="Node2D" parent="."]
+
+[node name="bric71" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 52 )
+
+[node name="bric99" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 187 )
+
+[node name="bric28" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 18 )
+
+[node name="bric50" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 86 )
+
+[node name="bric59" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 120 )
+
+[node name="bric101" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 42, 255 )
+
+[node name="bric65" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 52 )
+
+[node name="bric119" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 187 )
+
+[node name="bric22" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 18 )
+
+[node name="bric60" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 86 )
+
+[node name="bric44" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 120 )
+
+[node name="bric88" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 377, 255 )
+
+[node name="bric97" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 125, 154 )
+
+[node name="bric73" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 125, 52 )
+
+[node name="bric29" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 125, 18 )
+
+[node name="bric51" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 125, 86 )
+
+[node name="bric105" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 125, 221 )
+
+[node name="bric93" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 460, 154 )
+
+[node name="bric67" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 460, 52 )
+
+[node name="bric24" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 460, 18 )
+
+[node name="bric54" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 460, 86 )
+
+[node name="bric102" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 460, 221 )
+
+[node name="bric68" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 52 )
+
+[node name="bric112" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 187 )
+
+[node name="bric25" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 18 )
+
+[node name="bric48" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 86 )
+
+[node name="bric57" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 120 )
+
+[node name="bric110" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 209, 255 )
+
+[node name="bric78" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 52 )
+
+[node name="bric91" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 187 )
+
+[node name="bric30" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 18 )
+
+[node name="bric52" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 86 )
+
+[node name="bric45" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 120 )
+
+[node name="bric89" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 544, 255 )
+
+[node name="bric69" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 52 )
+
+[node name="bric114" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 187 )
+
+[node name="bric26" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 18 )
+
+[node name="bric55" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 86 )
+
+[node name="bric41" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 120 )
+
+[node name="bric83" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 712, 255 )
+
+[node name="bric115" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 293, 154 )
+
+[node name="bric66" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 293, 52 )
+
+[node name="bric23" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 293, 18 )
+
+[node name="bric61" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 293, 86 )
+
+[node name="bric117" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 293, 221 )
+
+[node name="bric95" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 628, 154 )
+
+[node name="bric53" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 628, 52 )
+
+[node name="bric21" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 628, 18 )
+
+[node name="bric47" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 628, 86 )
+
+[node name="bric82" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 628, 221 )
+
+[node name="bric98" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 796, 154 )
+
+[node name="bric70" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 796, 52 )
+
+[node name="bric27" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 796, 18 )
+
+[node name="bric49" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 796, 86 )
+
+[node name="bric85" parent="brics" instance=ExtResource( 1 )]
+position = Vector2( 796, 221 )

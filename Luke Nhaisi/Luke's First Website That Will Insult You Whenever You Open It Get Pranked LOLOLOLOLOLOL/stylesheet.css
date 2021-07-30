@@ -27,3 +27,17 @@ img  {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+#footer{
+  text-align: center;
+  border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: darkslategray;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: chartreuse;
+}

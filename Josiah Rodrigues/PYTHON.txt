@@ -1,0 +1,11 @@
+
+animal = input("Name a animal. ")
+name = input("Pick a name. ")
+food = input("Name a food. ")
+place = input("Name a place. ")
+place_2 = input("Name a second place. ")
+adjective = input("Name a adjective. ")
+name_2 = input("Pick another name. ")
+
+
+print("Once there was an ",animal,"named",name,". Their favorite thing to eat is ",food,", but they couldn't find any. They searched ",place," all the way to ",place_2,", but they had no luck. By the end of the day, ",name," was so ",adjective,". Little did they know, their best friend")

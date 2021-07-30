@@ -1,0 +1,17 @@
+import random
+import time
+
+randomized = random.randint(0, 2)
+
+print("You wanna play as the classic Mario, but your friend then start arguing.")
+print("This is your chance.")
+print("You pull out the only-3-sides-dice, rolled it, hoping to get mario, and...")
+
+time.sleep(5)
+
+if randomized == "0":
+  print("You actually did!")
+elif randomized == "1":
+  print("But you got Luigi. But hey, he isn't that bad.")
+else:
+  print("But you got the annoying toad. Bruh moment.")

@@ -18,7 +18,7 @@ shape = SubResource( 1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -0.0158014 )
 
 [node name="shotgun" type="MeshInstance" parent="Camera"]
-transform = Transform( -9.9701, 0.528733, 0.563511, 0.527891, 9.98601, -0.0298364, -0.564301, 0, -9.98407, 0.2, -0.2, -0.6 )
+transform = Transform( -9.9701, 0.528733, 0.563511, 0.527891, 9.98601, -0.0298364, -0.564301, 0, -9.98407, 0.2, -0.2, -1.16034 )
 mesh = ExtResource( 2 )
 material/0 = null
 material/1 = null
@@ -55,4 +55,4 @@ material/31 = null
 material/32 = null
 
 [node name="Muzzle" type="Spatial" parent="Camera"]
-transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 0, 0, 0 )
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 0.184159, -0.102705, -1.80903 )

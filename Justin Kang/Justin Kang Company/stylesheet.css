@@ -1,0 +1,82 @@
+body {
+    margin-left: 0%;
+    padding: 0px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+ul {
+    margin-left: 0%;
+    padding: 0px;
+
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: green;
+}
+
+.navlinks {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+background-image: url("images/Piccc.jpg");
+padding: 400px 0;
+background-size:cover;
+font-size: xx-large;
+color: red;
+}
+
+.ourpokemoncards{
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color:  black;
+}
+
+.introduction {
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.ourpokemon {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .game {
+        width: 35%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+    
+
+

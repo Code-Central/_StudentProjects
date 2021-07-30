@@ -1,0 +1,1 @@
+animal = input("Story time!! Fill in all the blanks with your answer c: Enter an animal: ______")

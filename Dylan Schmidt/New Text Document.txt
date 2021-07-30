@@ -1,0 +1,15 @@
+nums=[]
+days=[]
+day=input("what day is it today? (type done when done) ")
+while (day != "done"):
+  days.append(day)
+  num=int(input("give me a random number "))
+  nums.append(num)
+  num=int(input("give me a random number "))
+  nums.append(num)
+  num=int(input("give me a random number "))
+  nums.append(num)
+  day=input("what day is it today? (type done when done) ")
+for x in range(0,len(days)):
+  number=nums[x*3-2]+nums[x*3-1]+nums[x*3]
+  print("on ", days[x], " i thought of the number ", number)

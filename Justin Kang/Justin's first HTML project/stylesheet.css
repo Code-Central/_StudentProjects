@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+}
+
+
+#header{
+    background-color:blue;
+    border-width: 4.5px;
+    border-style: dashed;
+    border-color: chocolate;
+    border-radius: 70%;
+    text-align: center;
+}
+img {
+border-radius: 50%;
+width: 50%;
+height: 25%;
+border-width: 3px;
+border-style: solid;
+border-color: black;
+display: block;
+margin-left: 25%;
+margin-right: 25%;
+}
+#list {
+
+}
+#navlinks

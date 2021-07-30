@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(22, 247, 22);
+}
+
+img {
+    border-radius: 50%;
+    height: 50%;
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}}}
