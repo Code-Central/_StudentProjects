@@ -13,7 +13,7 @@ scale = Vector2( 4.27685, 3.69683 )
 texture = ExtResource( 2 )
 
 [node name="Plate" parent="." instance=ExtResource( 3 )]
-position = Vector2( 492.472, 230.968 )
+position = Vector2( 488.432, 228.082 )
 
 [node name="coinspawner" type="Timer" parent="."]
 [connection signal="timeout" from="coinspawner" to="." method="_on_coinspawner_timeout"]

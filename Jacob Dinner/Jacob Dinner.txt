@@ -1,0 +1,19 @@
+import random
+
+name = input("What is your name ?")
+print("Hello " + name + " nice to meet you!")
+
+rand = 4
+
+while guess != rand:
+
+guess = int(input("What number am i thinking of? "))
+
+if guess == rand:
+	print("You were right!")
+
+#Greater Than Answer Here
+    #And Here
+
+#Less Than Answer Here
+    #And Here
