@@ -4,20 +4,23 @@
 [ext_resource path="res://Poke_Ball.png" type="Texture" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 28.0179
+radius = 14.0985
 
 [node name="pokeball" type="Area2D" groups=[
 "coins",
 ]]
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 2.49997, 3.99997 )
-scale = Vector2( 0.078227, 0.0795307 )
+position = Vector2( 30.2882, 23.1513 )
+scale = Vector2( 0.114816, 0.109036 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 1, 2 )
+position = Vector2( 30.2903, 21.5268 )
 shape = SubResource( 1 )
 
 [node name="Timer" type="Timer" parent="."]

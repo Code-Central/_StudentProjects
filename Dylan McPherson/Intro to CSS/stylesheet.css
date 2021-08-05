@@ -1,8 +1,17 @@
 body {
-    background-color: rgba(0, 0, 0, 0.548);
-    color:rgb(216, 133, 9)
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 254, 254)
 
 }
 h1 {
-    
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
 }
+
+    
+
+
+
+

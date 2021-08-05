@@ -1,0 +1,22 @@
+body {
+    background-color: darkgrey;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    border-bottom-color: cadetblue;
+}
+
+img {
+    margin-left: 25%;
+    margin-right: 25%;
+}
